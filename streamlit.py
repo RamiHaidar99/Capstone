@@ -614,7 +614,7 @@ def retail_main():
     #############################################################################################################################
 
     elif selected_tab == "Recommendations":
-        st.write("""Segment
+        st.write("""**Segment**
 
 **High-Value:** All metrics for this category are the highest. Customers belonging to this segment represent loyal customers, and strategies should focus on further enhancing their purchase satisfaction, loyalty, and experience.
 
