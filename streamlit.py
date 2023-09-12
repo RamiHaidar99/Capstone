@@ -4,9 +4,9 @@ import pandas as pd
 import plotly.express as px
 
 # Load the merged data from the CSV file
-merged_data = pd.read_csv("C:\\Users\\USER\\Desktop\\Capstone\\segmented_wholesale.csv")
+merged_data = pd.read_csv("segmented_wholesale.csv")
 
-retail_data = pd.read_csv("C:\\Users\\USER\\Desktop\\Capstone\\segmented_retail.csv")
+retail_data = pd.read_csv("segmented_retail.csv")
 
 # Set page title and configure layout
 st.set_page_config(page_title='SAKA Customer Segmentation', layout='wide')
